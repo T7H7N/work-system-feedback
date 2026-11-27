@@ -35,8 +35,8 @@
 예제의 작업자, 파일, 날짜는 모두 가상입니다. 입력은 전부 일반 텍스트로 확인할 수 있습니다.
 
 1. **주간 보고를 읽는 사람을 위해 씁니다.** 금요일에 Elm은 빠진 행을 되살리고 내보낸 ID를 확인했습니다. [조각](examples/fragment.md)에는 읽는 사람이 어느 묶음을 쓸 수 있는지와 어떤 수리가 아직 열려 있는지가 적혀 있습니다. 조각은 작업이 일어난 날짜로 모읍니다. 다음 주 월요일에 적었더라도 그렇습니다. 작성자별 조각은 따로 두고, 새 근거는 그 작성자 자신의 기록에 덧붙입니다. 사람이 근거를 확인하고 [주간 기록](examples/weekly.md)을 다듬습니다.
-2. **스윕 기간 전체를 읽습니다.** 대상 기록 파일의 목록과 내용 지문을 고정합니다. 목록을 읽는 사람들에게 나눕니다. 각자 어느 파일을 읽었는지 보고하고, 관측의 위치를 인용하고, 읽지 못한 파일을 밝힙니다. 지문이 바뀐 파일은 다시 살펴보되, 새 발생 건으로 세지는 않습니다. 조각, 주간 기록, 스윕 보고서는 사건 수에 넣지 않습니다.
-3. **목격자를 셉니다.** Elm과 Moss는 각자 다른 입력을 돌렸고, 입력 끝의 바이트와 빠진 출력 행을 비교했습니다. Reed는 내보내기를 돌리지 않고 Elm의 관측을 전달했습니다. 그래서 [첫 스윕](examples/sweep-first.md)의 집계는 **기록 3건, 직접 겪은 세션 2, 전달 1**입니다. Elm이 두 번 언급해도 그 신호에서 직접 겪은 세션은 하나로 셉니다. 이름이 다르게 적힌 보고는 근거가 같은 실패를 가리킬 때만 합칩니다. 확실하지 않으면 따로 둡니다.
+2. **이번 스윕 기간에 해당하는 기록을 빠짐없이 읽습니다.** 대상 기록 파일의 목록과 내용 지문을 고정합니다. 목록을 읽는 사람들에게 나눕니다. 각자 어느 파일을 읽었는지 보고하고, 관측의 위치를 인용하고, 읽지 못한 파일을 밝힙니다. 내용 지문이 달라진 파일은 다시 읽되, 파일이 바뀌었다는 사실만으로 사건 수를 늘리지는 않습니다. 조각, 주간 기록, 스윕 보고서는 사건 수에 넣지 않습니다.
+3. **직접 관측한 세션을 셉니다.** Elm과 Moss는 각자 다른 입력을 돌렸고, 입력 끝의 바이트와 빠진 출력 행을 비교했습니다. Reed는 내보내기를 돌리지 않고 Elm의 관측을 전달했습니다. 그래서 [첫 스윕](examples/sweep-first.md)의 집계는 **기록 3건, 직접 관측한 세션 2개, 전언만 담은 기록 1건**입니다. Elm이 두 번 언급해도 그 신호에서 직접 겪은 세션은 하나로 셉니다. 이름이 다르게 적힌 보고는 근거가 같은 실패를 가리킬 때만 합칩니다. 확실하지 않으면 따로 둡니다.
 4. **결정하고, 그 뒤를 확인합니다.** 스윕 책임자는 근거, 결정, 담당자, 다시 확인할 조건을 기록합니다. 이 사례에서는 독립 관측 두 건이 마지막 행 누락을 고칠 근거가 됩니다. [다음 스윕](examples/sweep-next.md)은 원래의 두 입력 조건으로 수리를 확인하고 **“결과가 실제로 쓰였는가?”**를 묻습니다. 확인이 통과한 것은 후속 근거이고 실패 발생 건수에 더하지 않습니다. [원장](examples/ledger.md)에는 처음의 수와 닫은 이유가 남습니다.
 
 두 갈래 가운데 하나만 써도 됩니다. [기록](docs/capture.md), [주간 합본](docs/assemble.md), [스윕 돌리기](docs/sweep.md) 가운데 필요한 것부터 봅니다. 양식은 [조각 양식](templates/fragment.md), [읽은 사람의 회신표](templates/sweep-return.md), [신호 원장](templates/signal-ledger.md) 셋뿐입니다.
@@ -50,7 +50,7 @@
 | [twisted/towncrier](https://raw.githubusercontent.com/twisted/towncrier/bbb4eef8394940eddeba4f934a907e4ea4cbf2ce/README.rst) | 최종 독자에게 중요한 변경을 작은 조각으로 쌓아 나중에 조립한다. 그 산출물은 릴리스 노트다. |
 | [tang-t21/weekly-report](https://raw.githubusercontent.com/tang-t21/weekly-report/ea0b0810485949311e4394f20f9a49ec7478e3af/README.md) | 세션 이력과 풀 리퀘스트를 나중에 모아 주간 보고를 만든다. 여기서는 근거가 손에 있을 때 기여자가 조각을 골라 쓴다. |
 | [weak-fox/agent-retrospective](https://raw.githubusercontent.com/weak-fox/agent-retrospective/54365e745470a81333efef5221e058bcd5a60ca4/README.md) | 입력의 지문을 떠서, 지난번 이후에 바뀐 기존 파일을 찾는 방식을 가져왔다. |
-| [pskoett/self-improving-agent](https://raw.githubusercontent.com/pskoett/self-improving-agent/e958afb5bf697c7d22898f9bba53406e2e3261bd/self-improving-agent/SKILL.md) | 두 방법 모두 지침을 바꿀지 정할 때 재발을 본다. 이 프로젝트는 교훈을 에이전트 지침으로 올릴 때 서로 다른 작업 수를 센다. 우리 원장은 직접 겪은 세션 수를 세고, 손봐야 할 공용 도구·규칙·절차의 책임자를 적는다. |
+| [pskoett/self-improving-agent](https://raw.githubusercontent.com/pskoett/self-improving-agent/e958afb5bf697c7d22898f9bba53406e2e3261bd/self-improving-agent/SKILL.md) | 두 방법 모두 지침을 바꿀지 정할 때 재발을 본다. self-improving-agent는 교훈을 에이전트 지침으로 올릴 때 서로 다른 작업 수를 센다. 이 저장소의 원장은 직접 겪은 세션 수를 세고, 손봐야 할 공용 도구·규칙·절차의 책임자를 적는다. |
 | [netresearch/retro-skill](https://raw.githubusercontent.com/netresearch/retro-skill/751ff48dd788d17c9e081f7bcd540c6992ae87bf/README.md) | 두 방법 모두 발견을 공용 프로젝트 규칙이나 도구의 책임자에게 보낼 수 있다. 나중에 실제로 쓰였는지 묻는 질문을 가져왔다. 우리의 출발 근거는 고정된 기간 안의 직접 기록과 전달 기록 전체이고, 작업자가 주간 보고에서는 뺄 내용도 포함한다. |
 
 ## 관련 프로젝트
