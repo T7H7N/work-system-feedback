@@ -1,1 +1,1 @@
-My batch held fern and reed. I tried exporting it before reading anyone else's report. The status said complete but only fern came out. The last input line stopped after reed. Adding a final line break brought reed back. I kept this pair because the export accepted both spellings.
+My batch held fern and sage. I tried exporting it before reading anyone else's report. The status said complete but only fern came out. The last input line stopped after sage. Adding a final line break brought sage back. I kept this pair because the export accepted both spellings.
