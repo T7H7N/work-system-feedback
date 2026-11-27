@@ -1,6 +1,21 @@
-# work-system-feedback · Session notes and sweeps
+# ![work-system-feedback · Session notes and sweeps](docs/assets/banner.svg)
 
-English | [한국어](README.ko.md)
+Use work records to inform weekly decisions and repair shared tools or procedures.
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-885726?style=flat)](LICENSE) ![Format: Markdown](https://img.shields.io/badge/format-Markdown-885726?style=flat) [![3 templates](https://img.shields.io/badge/templates-3-885726?style=flat)](templates/)
+
+### What it solves
+
+- Capture a usable result for the person making the decision.
+- Keep firsthand observations distinct from relayed accounts.
+- Follow the repair into the next sweep to check use and recurrence.
+
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/assets/workflow-compact.svg">
+  <img src="docs/assets/workflow.svg" alt="Work branches into fragments for a weekly report and firsthand notes for a sweep, repair, and later check.">
+</picture>
+
+**[Get started](#choose-what-to-write)**　·　English · [한국어](README.ko.md)
 
 Use this method to improve the rules, tools, and procedures that several people or sessions use to do their work. A worker describes friction in their own words in a **session note**. At regular intervals, a **sweep** reads every note in the window, counts independent observations, and gives the owner evidence for a repair. The next sweep checks whether the change was used and whether the failure recurred. The same task can also produce a **fragment** for a person who needs the result in a weekly report.
 
