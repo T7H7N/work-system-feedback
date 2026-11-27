@@ -1,0 +1,1 @@
+Friday, January 3. I ran the accepted-item export on the batch containing oak and ash. It said complete. I opened the output before handing it over: oak was there, ash was missing. The input ended just after the h in ash. I added a line break and ran the same batch again. The delivered copy contained oak and ash. I kept the two inputs for the repair check.
