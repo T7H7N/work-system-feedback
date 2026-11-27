@@ -91,3 +91,7 @@
 [blind-review-policy](https://github.com/T7H7N/blind-review-policy)는 고정된 검수 대상을 검수하고 지적을 처분하는 방법을 다룹니다.
 
 세부 문서(`docs/`), 양식(`templates/`), 예제(`examples/`)는 영어로만 제공됩니다.
+
+## 의견 남기기
+
+써 보셨다면 잘 된 점과 걸린 점을 [Discussions](https://github.com/T7H7N/work-system-feedback/discussions)에 남겨 주세요. 버그는 [Issues](https://github.com/T7H7N/work-system-feedback/issues)로 알려 주세요.

@@ -85,3 +85,7 @@ You can adopt either path on its own. Start with [capture](docs/capture.md), [we
 [session-lineage](https://github.com/T7H7N/session-lineage) describes how a successor picks up unfinished work.
 
 [blind-review-policy](https://github.com/T7H7N/blind-review-policy) describes how to review a fixed candidate and decide what to do with the findings.
+
+## Feedback
+
+Tried it? Share what worked and what got in the way in [Discussions](https://github.com/T7H7N/work-system-feedback/discussions). Use [Issues](https://github.com/T7H7N/work-system-feedback/issues) for bugs.
