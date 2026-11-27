@@ -1,14 +1,23 @@
-# ![work-system-feedback · 세션 기록과 스윕](docs/assets/banner.svg)
+<h1><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner.svg">
+  <img src="docs/assets/banner-light.svg" alt="work-system-feedback · 세션 기록과 스윕">
+</picture></h1>
 
 업무 기록을 주간 보고에 쓰고, 반복해서 겪은 문제는 공용 규칙·도구·절차의 수리로 잇습니다.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-885726?style=flat)](LICENSE) ![Format: Markdown](https://img.shields.io/badge/format-Markdown-885726?style=flat) [![3 templates](https://img.shields.io/badge/templates-3-885726?style=flat)](templates/)
 
+**[바로 시작](#무엇을-쓸지-고르기)**　·　[English](README.md) · 한국어
+
 ### 무엇을 해결하나요?
 
-- 사람이 판단에 쓸 결과와 근거를 조각으로 남깁니다.
-- 직접 겪은 관측과 전해 들은 기록을 구분합니다.
-- 수리 뒤에는 다음 스윕에서 사용 여부와 재발을 확인합니다.
+<table>
+<tr>
+  <td width="33%" valign="top"><img src="docs/assets/feature-1.svg" width="30" alt=""><br><strong>업무 결과</strong><br>사람이 판단에 쓸 결과와 근거를 조각으로 남깁니다.</td>
+  <td width="33%" valign="top"><img src="docs/assets/feature-2.svg" width="30" alt=""><br><strong>관측 기록</strong><br>직접 겪은 관측과 전해 들은 기록을 구분합니다.</td>
+  <td width="33%" valign="top"><img src="docs/assets/feature-3.svg" width="30" alt=""><br><strong>후속 점검</strong><br>수리 뒤에는 다음 스윕에서 사용 여부와 재발을 확인합니다.</td>
+</tr>
+</table>
 
 <picture>
   <source media="(max-width: 600px)" srcset="docs/assets/workflow-compact.svg">
@@ -17,7 +26,12 @@
 
 사람용 조각은 주간 보고로, 세션 기록은 스윕과 수리로 이어집니다. 다음 스윕에서 실제 사용과 재발을 확인합니다.
 
-**[바로 시작](#무엇을-쓸지-고르기)**　·　[English](README.md) · 한국어
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/assets/usage-compact.svg">
+  <img src="docs/assets/usage.svg" alt="업무 기록 서식을 채운 예시.">
+</picture>
+
+세 기록 가운데 직접 관측 둘과 전달 하나를 구분하고, 다음 집계에서 수정 결과의 사용 여부를 확인합니다.
 
 여러 사람이나 세션이 함께 쓰는 규칙, 도구, 절차를 개선할 때 쓰는 방법입니다. 작업자는 일하다 겪은 마찰을 **세션 기록**(session note)에 자기 말로 적습니다. 정해진 주기마다 **스윕**(sweep)이 그 기간의 기록을 전부 읽고, 독립된 관측이 몇 건인지 세어, 수리를 맡을 책임자에게 근거를 넘깁니다. 다음 스윕은 바뀐 것이 실제로 쓰였는지와 같은 실패가 다시 나왔는지를 확인합니다. 같은 작업에서, 주간 보고에 결과가 필요한 사람을 위한 **조각**(fragment)도 함께 나올 수 있습니다.
 

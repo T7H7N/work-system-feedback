@@ -1,1 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="416" height="204" viewBox="0 0 416 204" role="img" aria-labelledby="title desc"><title id="title">work-system-feedback workflow</title><desc id="desc">Work branches into fragments for a weekly report and firsthand notes for a sweep, repair, and later check.</desc><g font-family="Segoe UI, Helvetica, Arial, sans-serif"><rect x="0" y="0" width="416" height="204" rx="14" fill="#101B2C" stroke="none"/><rect x="13" y="11" width="390" height="56" rx="9" fill="#1A293C" stroke="#3C4D60"/><g transform="translate(36 39)"><path d="M-10 0h6q4 0 6 -6h8 M-4 0q4 0 6 6h8" fill="none" stroke="#FFC58B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><text x="60" y="35" font-size="18" fill="#F3F6F8" font-weight="650" >Work performed</text><text x="60" y="55" font-size="14" fill="#CED9E3" font-weight="400" >Choose a record for the intended reader.</text><rect x="13" y="73" width="390" height="56" rx="9" fill="#1A293C" stroke="#3C4D60"/><g transform="translate(36 101)"><path d="M-8 -11h12l5 5v17H-8z M4 -11v6h5 M-4 0h8 M-4 5h6" fill="none" stroke="#FFC58B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><text x="60" y="97" font-size="18" fill="#F3F6F8" font-weight="650" >Fragment to weekly report</text><text x="60" y="117" font-size="14" fill="#CED9E3" font-weight="400" >A reader checks and uses the result.</text><rect x="13" y="135" width="390" height="56" rx="9" fill="#1A293C" stroke="#3C4D60"/><g transform="translate(36 163)"><path d="M-8 -7h15 M-8 0h15 M-8 7h10" fill="none" stroke="#FFC58B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><text x="60" y="159" font-size="18" fill="#F3F6F8" font-weight="650" >Session notes to sweep and repair</text><text x="60" y="179" font-size="14" fill="#CED9E3" font-weight="400" >Check use and recurrence in the next window.</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="458" viewBox="0 0 420 458" role="img" aria-labelledby="title desc">
+<title id="title">Repair feedback loop</title>
+<desc id="desc">Notes of firsthand friction feed a sweep and repair. The next sweep checks use and recurrence. Useful results can separately reach a weekly report through a fragment.</desc>
+<defs><marker id="arr" markerUnits="userSpaceOnUse" orient="auto" markerWidth="9" markerHeight="10" refX="8" refY="5"><path d="M0 0L8 5L0 10Z" fill="#984312"/></marker><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M-2 2L2 -2M0 8L8 0M6 10L10 6" fill="none" stroke="#984312" stroke-width="1.2"/></pattern></defs>
+<rect x="0.5" y="0.5" width="419" height="457" rx="8" fill="#f6f5f1" stroke="#c5c9c3"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="18" y="39" font-size="26" fill="#172529" font-weight="680" >How a repair earns closure</text>
+<path d="M18 52H402" fill="none" stroke="#c6cbc5" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M75 121Q94 87 122 87H245" fill="none" stroke="#984312" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)"/>
+<path d="M335 120Q389 144 389 179v53" fill="none" stroke="#984312" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)"/>
+<path d="M349 285Q327 301 281 301H184" fill="none" stroke="#984312" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)"/>
+<path d="M88 278Q31 256 31 204v-36" fill="none" stroke="#984312" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)"/>
+<circle cx="56" cy="131" r="7" fill="#f6f5f1" stroke="#984312" stroke-width="3"/>
+<text x="75" y="137" font-size="19" fill="#172529" font-weight="650" >Session note</text>
+<text x="75" y="159" font-size="15" fill="#45565a" font-weight="400" >Firsthand friction</text>
+<circle cx="256" cy="87" r="7" fill="#f6f5f1" stroke="#984312" stroke-width="3"/>
+<text x="274" y="93" font-size="18" fill="#172529" font-weight="650" >Sweep notes</text>
+<text x="274" y="114" font-size="14" fill="#45565a" font-weight="400" >Count witnesses</text>
+<circle cx="376" cy="251" r="7" fill="#f6f5f1" stroke="#984312" stroke-width="3"/>
+<text x="354" y="257" font-size="20" fill="#172529" font-weight="650" text-anchor="end">Repair</text>
+<text x="354" y="277" font-size="15" fill="#45565a" font-weight="400" text-anchor="end">Owner acts</text>
+<circle cx="172" cy="301" r="7" fill="#f6f5f1" stroke="#984312" stroke-width="3"/>
+<text x="47" y="307" font-size="19" fill="#172529" font-weight="650" >Next sweep</text>
+<rect x="57" y="185" width="299" height="40" rx="20" fill="#fae5d3" stroke="none"/>
+<text x="207" y="211" font-size="18" fill="#984312" font-weight="650" text-anchor="middle">Check use and recurrence</text>
+<path d="M18 337H402" fill="none" stroke="#c6cbc5" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<text x="20" y="368" font-size="14" fill="#984312" font-weight="700" letter-spacing="1.2">WORK RESULT</text>
+<text x="20" y="401" font-size="22" fill="#172529" font-weight="650" >Weekly fragment</text>
+<path d="M211 393h40" fill="none" stroke="#984312" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)"/>
+<text x="267" y="400" font-size="18" fill="#172529" font-weight="630" >Weekly report</text>
+<text x="20" y="433" font-size="17" fill="#45565a" font-weight="400" >Evidence a reader can use this week.</text>
+</g></svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="434" viewBox="0 0 800 434" role="img" aria-labelledby="title desc">
+<title id="title">Signal ledger: final export item</title>
+<desc id="desc">Two direct sessions and one relay from three records. The January 5 window opened a repair. Both tests and use were checked before closing January 12; cumulative counts remain unchanged.</desc>
+<defs><marker id="arr" markerUnits="userSpaceOnUse" orient="auto" markerWidth="9" markerHeight="10" refX="8" refY="5"><path d="M0 0L8 5L0 10Z" fill="#984312"/></marker><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M-2 2L2 -2M0 8L8 0M6 10L10 6" fill="none" stroke="#984312" stroke-width="1.2"/></pattern></defs>
+<rect x="0.5" y="0.5" width="799" height="433" rx="8" fill="#f6f5f1" stroke="#c5c9c3"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<rect x="25" y="22" width="750" height="389" rx="5" fill="#fffefb" stroke="#c6cbc5"/>
+<rect x="25" y="22" width="750" height="48" rx="5" fill="#f1e4d7" stroke="none"/>
+<g transform="translate(44 32)"><path d="M0 0h12l6 6v18H0z M12 0v6h6 M4 11h9 M4 16h9" fill="none" stroke="#984312" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" /></g>
+<text x="78" y="52" font-size="19" fill="#984312" font-weight="600" font-family="Consolas, monospace">signal-ledger.md</text>
+<text x="45" y="110" font-size="28" fill="#172529" font-weight="660" >Final item omitted from export</text>
+<text x="46" y="140" font-size="18" fill="#45565a" font-weight="400" >Input ended without a trailing line break.</text>
+<rect x="45" y="159" width="708" height="75" rx="3" fill="#fae5d3" stroke="none"/>
+<path d="M279 170v53m235 -53v53" fill="none" stroke="#dcbfa6" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<text x="60" y="198" font-size="34" fill="#984312" font-weight="720" >3</text>
+<text x="96" y="196" font-size="18" fill="#172529" font-weight="400" >records</text>
+<text x="294" y="198" font-size="34" fill="#984312" font-weight="720" >2</text>
+<text x="329" y="196" font-size="18" fill="#172529" font-weight="400" >direct sessions</text>
+<text x="530" y="198" font-size="34" fill="#984312" font-weight="720" >1</text>
+<text x="564" y="196" font-size="18" fill="#172529" font-weight="400" >relay only</text>
+<text x="46" y="270" font-size="17" fill="#984312" font-weight="600" font-family="Consolas, monospace">JAN 05</text>
+<text x="162" y="270" font-size="19" fill="#172529" font-weight="690" >Open</text>
+<text x="240" y="270" font-size="17" fill="#172529" font-weight="400" >Export maintainer to repair and rerun saved inputs.</text>
+<path d="M45 288H754" fill="none" stroke="#c6cbc5" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<text x="46" y="320" font-size="17" fill="#984312" font-weight="600" font-family="Consolas, monospace">JAN 12</text>
+<text x="162" y="320" font-size="19" fill="#172529" font-weight="690" >Closed</text>
+<text x="240" y="317" font-size="17" fill="#172529" font-weight="400" >Both input conditions passed.</text>
+<text x="240" y="341" font-size="17" fill="#172529" font-weight="400" >The reader used the corrected output.</text>
+<path d="M45 359H754" fill="none" stroke="#c6cbc5" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<text x="46" y="391" font-size="17" fill="#45565a" font-weight="400" >Reopen on a new direct observation of the missing item.</text>
+</g></svg>
