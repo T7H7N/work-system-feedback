@@ -46,6 +46,12 @@ Work performed
                                        in the next sweep
 ```
 
+## Compatibility
+
+- **Built with.** Written and used while working in Claude Code (the desktop app's Code tab and the CLI).
+- **Independent of the agent tool.** The repository contains only Markdown: the method in `docs/`, three forms in `templates/` and a fictional worked example in `examples/`. Session notes, fragments and sweep reports are plain files that a person or a session in any tool can write and read.
+- **Not included.** There is no code, and no hooks or adapters for Claude Code, Codex or any other agent tool. Listing the note files and fingerprinting their contents for a sweep is left to your own tools.
+
 ## Choose what to write
 
 | At the end of a task | Write |
